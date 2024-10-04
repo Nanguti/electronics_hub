@@ -83,7 +83,7 @@ const products = [
 
 const Products = () => {
   return (
-    <div className="container">
+    <div className="py-40 container">
       <div className="relative flex flex-col lg:flex-row">
         <div className="container relative flex flex-col lg:flex-row" id="body">
           <div className="pr-4 pt-10 lg:basis-1/3 xl:basis-1/4">

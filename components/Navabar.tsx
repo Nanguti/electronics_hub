@@ -23,7 +23,7 @@ const Navabar = () => {
   };
 
   return (
-    <div className="container">
+    <div className="container fixed top-0 left-0 right-0 z-50 bg-gray-900">
       <div className="flex items-center justify-between pt-8">
         <div className="flex gap-1 p-0.5 border border-black/15 rounded-lg bg-black/10 backdrop:blur">
           {links.map((link) => (

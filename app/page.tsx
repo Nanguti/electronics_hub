@@ -7,7 +7,7 @@ import TopDeals from "@/sections/TopDeals";
 
 export default function Home() {
   return (
-    <div className=" overflow-x-clip">
+    <div className="py-40 overflow-x-clip">
       <div className="container">
         <Hero />
         <TopCategories />
