@@ -5,11 +5,7 @@ import ProductCard from "@/components/ProductCard";
 const NewArrivals = () => {
   return (
     <div className="py-16">
-      <SectionHeading
-        title="New Arrivals"
-        eyebrow="Check out new Arrivals"
-        description="New Arrivals in our store"
-      />
+      <SectionHeading title="New Arrivals" eyebrow="Check out new Arrivals" />
       <div className="flex flex-col mt-2 md:mt-2 gap-20">
         <ProductCard
           className=" px-8 pt-8 
