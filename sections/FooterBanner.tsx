@@ -4,7 +4,7 @@ const FooterBanner = () => {
   return (
     <div
       className="rounded-2xl  bg-cover bg-center 
-    bg-no-repeat py-16 mb-4 text-white"
+    bg-no-repeat py-36 mb-4 text-white"
       style={{
         backgroundImage: `url(${footerImage.src})`,
       }}

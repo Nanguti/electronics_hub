@@ -17,7 +17,7 @@ const calistoga = Calistoga({
 });
 
 export const metadata: Metadata = {
-  title: "My Portfolio",
+  title: "The Electronic Library",
   description: "Created using Next.js and Tailwind CSS",
 };
 

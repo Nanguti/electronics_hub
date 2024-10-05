@@ -53,7 +53,7 @@ const SidebarFilters = () => {
               key={item.name}
               type="button"
               onClick={() => setActiveBrand(item.name)}
-              className={`rounded-lg py-4 ${
+              className={`border border-red-600 rounded-lg py-2 px-4 ${
                 activeBrand === item.name ? "bg-primary text-white" : "bg-gray"
               }`}
             >
@@ -76,7 +76,7 @@ const SidebarFilters = () => {
               key={item}
               type="button"
               onClick={() => setActiveGender(item)}
-              className={`rounded-lg py-4 ${
+              className={`border border-red-600 rounded-lg py-2 px-4 ${
                 activeGender === item ? "bg-primary text-white" : "bg-gray"
               }`}
             >
@@ -160,10 +160,7 @@ const SidebarFilters = () => {
 
   return (
     <div className="top-28 lg:sticky">
-      <SectionHeading
-        title="Filter products"
-        eyebrow="Serach anything from our collection"
-      />
+      <SectionHeading title="Filter " eyebrow="" />
       <div className="divide-y divide-neutral-300">
         {renderTabsCategories()}
         {renderTabsGender()}

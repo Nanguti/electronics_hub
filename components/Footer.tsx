@@ -44,7 +44,7 @@ const Footer = () => {
   return (
     <div className="container">
       <FooterBanner />
-      <hr className="border-t-2 border-white/15 lg:mt-16 md:mt-5 pb-16" />
+      <hr className="border-t-2 border-white/15 lg:mt-8 md:mt-5 pb-16" />
       <div className="grid lg:grid-cols-4 py-4 gap-4 justify-between">
         <div className=" col-span-1 ">
           <div className="flex flex-col">

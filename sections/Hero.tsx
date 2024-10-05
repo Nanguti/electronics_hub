@@ -43,7 +43,7 @@ const Hero = () => {
           {/* Second Section */}
           <div
             className="lg:col-span-1 bg-cover bg-center bg-no-repeat py-16 bg-gray-800 rounded-lg overflow-hidden 
-  relative z-0 flex flex-col justify-center before:absolute before:inset-0 before:bg-black before:opacity-50 
+  relative z-0 flex flex-col justify-center before:absolute before:inset-0 before:bg-black before:opacity-20 
   before:z-0 after:z-10 after:content[''] after:absolute after:inset-0 after:outline-2 
   after:outline after:-outline-offset-2 after:rounded-lg after:outline-white/20 after:pointer-events-none p-6"
             style={{
